@@ -1,14 +1,14 @@
 import React from "react";
 import classes from "./Portfolio.module.css";
 import portfolioIMG1 from "../../assets/portfolio_img1.webp";
-
+import courseRegistrationIMG from "../../assets/courseRegistrationIMG.jpeg";
 const portfolio_data = [
   {
     id: 1,
-    image: portfolioIMG1,
+    image: courseRegistrationIMG,
     title: "University schdule website",
-    github: "https://github.com/youn0808/javascript_exercise",
-    demo: "Demo website",
+    github: "https://github.com/youn0808/course_registration-group-project-",
+    demo: "https://youn0808.github.io/course_registration-group-project-/",
   },
   {
     id: 2,
