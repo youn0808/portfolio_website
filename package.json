@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "http://seung0808portfolio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
