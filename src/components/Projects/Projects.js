@@ -33,13 +33,12 @@ const projects_data = [
   },
   {
     id: 3,
-    icon: FaCampground,
-    title: "Camp site",
-    skills: "Javascript • NodeJS",
-    details:
-      "A website where users can create and review campgrounds. In order to review or create a campground",
-    github: "https://github.com/youn0808/javascript_exercise",
-    demo: "Demo website",
+    icon: CgWebsite,
+    title: "Personal Website",
+    skills: "React •  AWS",
+    details: "A personal portfolio web site ",
+    github: "https://github.com/youn0808/portfolio_website",
+    demo: "https://github.com/youn0808/portfolio_website",
   },
   {
     id: 4,
@@ -47,21 +46,12 @@ const projects_data = [
     title: "Movie ticket app",
     skills: "Java • Python • SQL • Android studio ",
     details:
-      "Developing a movie ticket purchasing application. The aim of the app is to allow users to be able to purchase and reserve movie tickets through an app before going to the theater.",
+      "Developed a movie ticket purchasing application. The aim of the app is to allow users to be able to purchase and reserve movie tickets through an app before going to the theater.",
     github: "https://github.com/youn0808/movie_theater_app",
-    demo: "Demo website",
+    demo: "video",
   },
   {
     id: 5,
-    icon: CgWebsite,
-    title: "Personal Website",
-    skills: "React •  AWS",
-    details: "My personal portfolio site",
-    github: "https://github.com/youn0808/javascript_exercise",
-    demo: "Demo website",
-  },
-  {
-    id: 6,
     icon: BsCurrencyBitcoin,
     title: "Blockchain Data Analytics",
     skills: "Python",
@@ -70,7 +60,18 @@ const projects_data = [
     github: "https://youn0808.github.io/BlockchainDataAnalytics/",
     demo: "https://github.com/youn0808/BlockchainDataAnalytics",
   },
+  {
+    id: 6,
+    icon: FaCampground,
+    title: "Camp site",
+    skills: "Javascript • NodeJS",
+    details:
+      "A website where users can create and review campgrounds. In order to review or create a campground",
+    github: "https://github.com/youn0808/javascript_exercise",
+    demo: "https://github.com/youn0808/booking_camp_site",
+  },
 ];
+
 const Portfolio = () => {
   return (
     <section className={classes.project_section} id="projects">
@@ -90,17 +91,8 @@ const Portfolio = () => {
                 <p>
                   <strong>{data.skills}</strong>
                 </p>
-                <p>{data.details}</p>
+                <p className={classes.detail}>{data.details}</p>
               </div>
-              {/* 
-              <div className={classes.project_item_cta}>
-                <a href={data.github} className="btn" target="_blank">
-                  Github
-                </a>
-                <a href={data.demo} className="btn btn-primary" target="_blank">
-                  Live Demo
-                </a>
-              </div> */}
             </a>
           );
         })}

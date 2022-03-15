@@ -100,3 +100,25 @@
 .project_item:hover .desc p strong {
   color: var(--color-navbar);
 }
+
+@media screen and (max-width: 1024px) {
+  .project_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 2.5rem; */
+    /* margin: auto; */
+
+    /* position: relative; */
+
+    /* width: 100vw; */
+  }
+  .detail {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .detail {
+    display: none;
+  }
+}

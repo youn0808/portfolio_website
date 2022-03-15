@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <nav className={classes.navbar}>
       <h1>
-        <a href="./index.html">Seung Hwan</a>
+        <a href="/">Seung Hwan</a>
       </h1>
 
       <ul>

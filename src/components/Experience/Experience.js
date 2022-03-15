@@ -31,7 +31,6 @@ const Experience = () => {
 
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
               <img src={HTML_IMG} />
               <div>
                 <h4>HTML</h4>
@@ -40,7 +39,6 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
               <img src={CSS_IMG} />
               <div>
                 <h4>CSS</h4>
@@ -50,7 +48,7 @@ const Experience = () => {
 
             <article className={classes.experience__details}>
               <img src={Java_IMG} />
-              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
+
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
@@ -58,7 +56,6 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
               <img src={Bootstrap_IMG} />
               <div>
                 <h4>Bootstrap</h4>
@@ -67,7 +64,6 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
               <img src={React_IMG} />
               <div>
                 <h4>React</h4>
@@ -76,7 +72,6 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
               <img src={NextJS_IMG} />
               <div>
                 <h4>Next.js</h4>

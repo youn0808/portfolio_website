@@ -7,19 +7,28 @@ import Projects from "./components/Projects/Projects";
 import Main from "./components/Main/Main";
 import Video from "./components/Video/Video";
 
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
-    <>
-      <Main />
-
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-
-      <Footer />
-      {/* <Video /> */}
-    </>
+    <div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Main />
+              <About />
+              <Experience />
+              <Projects />
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/video" element={<Video />}></Route>
+      </Routes>
+    </div>
   );
 }
 
