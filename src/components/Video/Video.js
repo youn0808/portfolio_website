@@ -1,24 +1,3 @@
-// import React, { Component } from "react";
-// import ReactPlayer from "react-player";
-
-// class Video extends Component {
-//   render() {
-//     return (
-
-//       <div className="player-wrapper">
-//         <ReactPlayer
-//           url="ovie_app_demo.MP4"
-//           width="90%"
-//           height="90%"
-//           controls={true}
-//         />
-//       </div>
-//     );
-//   }
-// }
-
-// export default Video;
-
 import React, { useEffect, useRef } from "react";
 
 const Video = () => {
@@ -53,3 +32,24 @@ const Video = () => {
 };
 
 export default Video;
+
+// import React, { Component } from "react";
+// import ReactPlayer from "react-player";
+
+// class Video extends Component {
+//   render() {
+//     return (
+
+//       <div className="player-wrapper">
+//         <ReactPlayer
+//           url="ovie_app_demo.MP4"
+//           width="90%"
+//           height="90%"
+//           controls={true}
+//         />
+//       </div>
+//     );
+//   }
+// }
+
+// export default Video;
