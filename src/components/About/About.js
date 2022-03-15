@@ -36,7 +36,7 @@ const About = () => {
             <article className={classes.about__card}>
               <FaAward className={classes.about__icon} />
               <h5>Experience</h5>
-              <small>6+ months Working</small>
+              <small>3+ years Working</small>
             </article>
           </div>
 

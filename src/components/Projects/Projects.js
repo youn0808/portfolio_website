@@ -24,10 +24,10 @@ const projects_data = [
     id: 2,
 
     icon: AiOutlineSchedule,
-    title: "Course schdule website",
+    title: "Course schedule website",
     skills: "HTML • CSS • JavaScript",
     details:
-      "A web based application that allows student-specified class-priority list for creating class schedules for a term",
+      "A web-based  application that allows student-specified class-priority list for creating class schedules for a term",
     github: "https://github.com/youn0808/course_registration-group-project-",
     demo: "https://youn0808.github.io/course_registration-group-project-/",
   },
