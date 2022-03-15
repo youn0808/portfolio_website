@@ -1,3 +1,26 @@
+import React, { Component } from "react";
+import ReactPlayer from "react-player";
+
+class Video extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello this is new</h1>
+      </div>
+      // <div className="player-wrapper">
+      //   <ReactPlayer
+      //     url="ovie_app_demo.MP4"
+      //     width="90%"
+      //     height="90%"
+      //     controls={true}
+      //   />
+      // </div>
+    );
+  }
+}
+
+export default Video;
+
 // import React, { useEffect, useRef } from "react";
 
 // const Video = () => {
@@ -24,6 +47,7 @@
 //         muted
 //         controls
 //         alt="All the devices"
+//         // src="/movie_app_demo.mp4"
 //         src="/movie_app_demo.mp4"
 //         ref={videoEl}
 //       />
@@ -32,23 +56,3 @@
 // };
 
 // export default Video;
-
-import React, { Component } from "react";
-import ReactPlayer from "react-player";
-
-class Video extends Component {
-  render() {
-    return (
-      <div className="player-wrapper">
-        <ReactPlayer
-          url="movie_app_demo.MP4"
-          width="90%"
-          height="90%"
-          controls={true}
-        />
-      </div>
-    );
-  }
-}
-
-export default Video;
