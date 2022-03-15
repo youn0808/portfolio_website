@@ -1,0 +1,22 @@
+import React from "react";
+import classes from "./Contact.module.css";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+
+const SocialsLink = () => {
+  return (
+    <div className={classes.socials}>
+      <a
+        href="https://www.linkedin.com/in/seunghwan-youn-9303/"
+        target="_blank"
+      >
+        <BsLinkedin />
+      </a>
+      <a href="https://github.com/youn0808" target="_blank">
+        <BsGithub />
+      </a>
+    </div>
+  );
+};
+
+export default SocialsLink;

@@ -2,8 +2,12 @@ import React from "react";
 import classes from "./Contact.module.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
+import { AiOutlinePhone } from "react-icons/ai";
+import SocialsLink from "./SocialsLink";
+
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+
 const Contact = () => {
   const form = useRef();
 
@@ -20,26 +24,37 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className={classes.contact}>
-      <h5>Get in Touch</h5>
-      <h2>Contact Me</h2>
-      <div className={`container ${classes.contact__container}`}>
+    <section id="contact" className={classes.contact_section}>
+      <h1>Contact Me</h1>
+      <div className={classes["contact__container"]}>
         <div className={classes.contact__options}>
-          <article className={classes.contact__option}>
-            <MdOutlineEmail className={classes.contact__option_icon} />
+          <div className={classes.contact__option}>
+            <span className={classes.contact__option_icon}>
+              <AiOutlinePhone />
+            </span>
+            <h4>Contact Number</h4>
+            <h5>+1 204 869 1756</h5>
+            <a href="mailto:hhwannn2@gmail.com"></a>
+          </div>
+          <div className={classes.contact__option}>
+            <span className={classes.contact__option_icon}>
+              <MdOutlineEmail />
+            </span>
             <h4>Email</h4>
             <h5>hhwannn2@gmail.com</h5>
             <a href="mailto:hhwannn2@gmail.com">Send a email</a>
-          </article>
+          </div>
 
-          <article className={classes.contact__option}>
-            <BsWhatsapp className={classes.contact__option_icon} />
+          <div className={classes.contact__option}>
+            <span className={classes.contact__option_icon}>
+              <BsWhatsapp />
+            </span>
             <h4>WhatsApp</h4>
             <h5>+12048691756</h5>
             <a href="https://api.whatsapp.com/send?phone=+12048691756">
               Send a message
             </a>
-          </article>
+          </div>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
@@ -63,6 +78,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <SocialsLink />
     </section>
   );
 };

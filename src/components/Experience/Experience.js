@@ -1,11 +1,29 @@
 import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import classes from "./Experience.module.css";
+
+import HTML_IMG from "../../assets/skills/html.png";
+import CSS_IMG from "../../assets/skills/css.png";
+import Java_IMG from "../../assets/skills/javascript.png";
+import Bootstrap_IMG from "../../assets/skills/bootstrap.png";
+import React_IMG from "../../assets/skills/react.png";
+import NodeJS_IMG from "../../assets/skills/node.png";
+
+import cplusplus_IMG from "../../assets/skills/cplusplus.png";
+import firebase_IMG from "../../assets/skills/firebase.png";
+import java_IMG from "../../assets/skills/java.png";
+
+import NextJS_IMG from "../../assets/skills/nextjs.png";
+import python_IMG from "../../assets/skills/python.png";
+import mysql_IMG from "../../assets/skills/mysql.png";
+import mongo_IMG from "../../assets/skills/mongo.png";
+
+import linux_IMG from "../../assets/skills/linux.png";
+
 const Experience = () => {
   return (
-    <section id="experience">
-      <h5>What Skills I have</h5>
-      <h2>My Experience</h2>
+    <section className={classes.experience_section} id="experience">
+      <h1>My Experience</h1>
 
       <div className={`container ${classes.experience__container}`}>
         <div className={classes.experience__frontend}>
@@ -13,7 +31,8 @@ const Experience = () => {
 
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
+              <img src={HTML_IMG} />
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
@@ -21,7 +40,8 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
+              <img src={CSS_IMG} />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
@@ -29,7 +49,8 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              <img src={Java_IMG} />
+              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
@@ -37,7 +58,8 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
+              <img src={Bootstrap_IMG} />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Experienced</small>
@@ -45,7 +67,8 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
+              <img src={React_IMG} />
               <div>
                 <h4>React</h4>
                 <small className="text-light">Experienced</small>
@@ -53,7 +76,8 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              {/* <BsPatchCheckFill className={classes.experience__details_icons} /> */}
+              <img src={NextJS_IMG} />
               <div>
                 <h4>Next.js</h4>
                 <small className="text-light">Experienced</small>
@@ -61,7 +85,7 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              <img src={NodeJS_IMG} />
               <div>
                 <h4>Node.js</h4>
                 <small className="text-light">Experienced</small>
@@ -71,18 +95,34 @@ const Experience = () => {
         </div>
 
         <div className={classes.experience__backend}>
-          <h3>Frontend Development</h3>
+          <h3>Backend Development</h3>
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              <img src={cplusplus_IMG} />
               <div>
-                <h4>Node JS</h4>
+                <h4>C++</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              <img src={java_IMG} />
+              <div>
+                <h4>Java</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className={classes.experience__details}>
+              <img src={python_IMG} />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className={classes.experience__details}>
+              <img src={mongo_IMG} />
               <div>
                 <h4>MongoDB</h4>
                 <small className="text-light">Experienced</small>
@@ -90,9 +130,24 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <BsPatchCheckFill className={classes.experience__details_icons} />
+              <img src={mysql_IMG} />
               <div>
                 <h4>MySQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className={classes.experience__details}>
+              <img src={linux_IMG} />
+              <div>
+                <h4>Linux</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className={classes.experience__details}>
+              <img src={firebase_IMG} />
+              <div>
+                <h4>Firebase</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

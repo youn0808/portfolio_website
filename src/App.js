@@ -2,20 +2,23 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
-import Header from "./components/Header/Header";
-import Nav from "./components/Nav/Nav";
-import Portfolio from "./components/Portfolio/Portfolio";
+
+import Projects from "./components/Projects/Projects";
+import Main from "./components/Main/Main";
+import Video from "./components/Video/Video";
 
 function App() {
   return (
     <>
-      <Header />
-      <Nav />
+      <Main />
+
       <About />
       <Experience />
-      <Portfolio />
+      <Projects />
       <Contact />
+
       <Footer />
+      {/* <Video /> */}
     </>
   );
 }

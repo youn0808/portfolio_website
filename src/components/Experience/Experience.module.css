@@ -1,11 +1,15 @@
+.experience_section {
+  background-color: var(--color-background);
+}
 .experience__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 45% 45%;
+  gap: 5%;
+  justify-content: center;
 }
 
 .experience__container > div {
-  background: var(--color-bg-variant);
+  background: var(--color-background-shadow);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
@@ -29,6 +33,10 @@
   display: flex;
   gap: 1rem;
 }
+.experience__details img {
+  width: 50px;
+}
+
 .experience__details_icons {
   margin-top: 6px;
   color: var(--color-primary);

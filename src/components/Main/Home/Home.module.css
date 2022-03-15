@@ -1,0 +1,164 @@
+.home {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 2px red; */
+}
+.text_box {
+  color: var(--color-white);
+  font-size: 1.5rem;
+  text-align: center;
+}
+.typewrite > span {
+  color: var(--color-white);
+  margin-right: 10px;
+}
+.typewrite h4 {
+  text-decoration: underline;
+  color: var(--color-yellow);
+}
+
+.text_box > .typewrite {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-yellow);
+  letter-spacing: 4px;
+}
+/*Scroll Down Animation*/
+
+.scrollDown {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scrollDown span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid var(--color-yellow);
+  border-right: 5px solid var(--color-yellow);
+  transform: rotate(45deg);
+  margin: -5px;
+  animation: animate 2s infinite;
+}
+
+.scrollDown span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.scrollDown span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-15px, -15px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(15px, 15px);
+  }
+}
+/*Scroll Down Animation*/
+
+.ftco-about .img-about {
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+.ftco-about .img-about .img {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.ftco-about ul.about-info {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.ftco-about ul.about-info li {
+  color: #e5e5e5;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.ftco-about ul.about-info li span {
+  width: calc(100% - 130px);
+}
+.ftco-about ul.about-info li span:first-child {
+  font-weight: 600;
+  color: #6ec5b8;
+  width: 130px;
+}
+
+.ftco-about .counter-wrap .text p {
+  font-size: 20px;
+}
+.ftco-about .counter-wrap .text p span {
+  font-weight: 400;
+  color: #6ec5b8;
+}
+.ftco-about .counter-wrap .text p span.number {
+  font-weight: 600;
+  color: #ffac00;
+}
+
+/* CTA */
+
+.me {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 5%;
+  left: calc(50%-11rem);
+  margin-top: 4rem;
+  background-position-x: 140px;
+}
+.me img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .home__socials,
+  .scroll__down {
+    display: none;
+  }
+}

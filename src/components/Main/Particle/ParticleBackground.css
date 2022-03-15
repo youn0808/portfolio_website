@@ -1,0 +1,22 @@
+.particle {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* background-color: red; */
+  /* overflow: hidden; */
+
+  /* height: 100vh; */
+
+  /* border: solid 5px rgb(51, 255, 0); */
+
+  /* position: relative; */
+}
+
+#tsparticles {
+  /* bottom: 0px; */
+  /* box-sizing: border-box; */
+  /* position: absolute; */
+  /* left: 0; */
+  /* right: 0; */
+  /* background-color: blue; */
+}
