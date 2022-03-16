@@ -18,7 +18,7 @@ const Video = () => {
   return (
     <div>
       <video
-        style={{ maxWidth: "97%" }}
+        style={{ maxWidth: "90%" }}
         playsInline
         loop
         muted
