@@ -41,15 +41,16 @@ const About = () => {
           </div>
 
           <p>
-            From couple of group projects while studying at UofM, I have
-            strongly understood not only CSS, JavaScript, NodeJS, MongoDB but
-            also using agile methodologies and Git to build and manage the
-            project. And I have invested much of my time developing front and
-            back end knowledges and skills even now. I am willing to learn new
-            technology and skills and become a part of team more than just as an
-            intern. In South Korea, I discharged from my military services
-            obligations where I was an infantry marine as squad leader for two
-            years. In this role I led a cohort of 6 in combat missions.
+            During my post-secondary studies, I become porficient in a variety
+            of language including Java, Python, JavaScript, React, NodeJS,
+            postgreSQL. I’m motivated to grow and through self-directed learning
+            continuously strive to expand my capabilities in front and back-end
+            development.had the privilege of serving as leader of a 6-person
+            team through various missions for 2 years. This role has allowed me
+            to foster several attributes such as creativity, problem-solving,
+            communication skills, detail-oriented, and in particular, a notable
+            aptitude for performing under duress, whether workload or time
+            related.
           </p>
 
           <CTA />

@@ -110,6 +110,7 @@ textarea {
   left: 1%;
   font-size: 1.8rem;
   bottom: 3rem;
+  transition: ease 0.5s;
 }
 
 @media screen and (max-width: 600px) {
