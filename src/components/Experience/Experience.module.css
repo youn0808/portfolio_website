@@ -30,10 +30,16 @@
   display: flex;
   gap: 1rem;
 }
-
+.experience__details div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .experience__details h4 {
   font-size: 0.95rem;
   color: var(--color-white);
+  display: flex;
+  align-items: center;
 }
 .experience__details img {
   width: 50px;

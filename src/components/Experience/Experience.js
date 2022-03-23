@@ -34,7 +34,6 @@ const Experience = () => {
               <img src={HTML_IMG} />
               <div>
                 <h4>HTML</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -42,7 +41,6 @@ const Experience = () => {
               <img src={CSS_IMG} />
               <div>
                 <h4>CSS</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -51,7 +49,6 @@ const Experience = () => {
 
               <div>
                 <h4>JavaScript</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -59,7 +56,6 @@ const Experience = () => {
               <img src={Bootstrap_IMG} />
               <div>
                 <h4>Bootstrap</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -67,7 +63,6 @@ const Experience = () => {
               <img src={React_IMG} />
               <div>
                 <h4>React</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -75,7 +70,6 @@ const Experience = () => {
               <img src={NextJS_IMG} />
               <div>
                 <h4>Next.js</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -83,7 +77,6 @@ const Experience = () => {
               <img src={NodeJS_IMG} />
               <div>
                 <h4>Node.js</h4>
-                <small>Experienced</small>
               </div>
             </article>
           </div>
@@ -96,7 +89,6 @@ const Experience = () => {
               <img src={cplusplus_IMG} />
               <div>
                 <h4>C++</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -104,7 +96,6 @@ const Experience = () => {
               <img src={java_IMG} />
               <div>
                 <h4>Java</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -112,7 +103,6 @@ const Experience = () => {
               <img src={python_IMG} />
               <div>
                 <h4>Python</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -120,7 +110,6 @@ const Experience = () => {
               <img src={mongo_IMG} />
               <div>
                 <h4>MongoDB</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -128,14 +117,12 @@ const Experience = () => {
               <img src={mysql_IMG} />
               <div>
                 <h4>MySQL</h4>
-                <small>Experienced</small>
               </div>
             </article>
             <article className={classes.experience__details}>
               <img src={linux_IMG} />
               <div>
                 <h4>Linux</h4>
-                <small>Experienced</small>
               </div>
             </article>
 
@@ -143,7 +130,6 @@ const Experience = () => {
               <img src={firebase_IMG} />
               <div>
                 <h4>Firebase</h4>
-                <small>Experienced</small>
               </div>
             </article>
           </div>

@@ -66,6 +66,9 @@
 .contact__option a:hover {
   color: var(--color-white);
 }
+.contact__option a {
+  color: var(--color-green);
+}
 /* Form */
 
 form {
@@ -91,6 +94,7 @@ textarea {
   border: 2px solid var(--color-bg-variant);
   resize: none;
   color: var(--color-white);
+  font: 800;
 }
 
 @media screen and (max-width: 1024px) {

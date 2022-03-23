@@ -50,7 +50,7 @@ const Contact = () => {
               <BsWhatsapp />
             </span>
             <h4>WhatsApp</h4>
-            <h5>+12048691756</h5>
+            <h5>+1 204 869 1756</h5>
             <a href="https://api.whatsapp.com/send?phone=+12048691756">
               Send a message
             </a>
