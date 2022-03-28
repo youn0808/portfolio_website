@@ -40,10 +40,10 @@
 .navbar > h1 > a {
   display: block;
   color: var(--color-yellow);
-  font-size: 26px;
+  font-size: 36px;
   margin-top: 0.5rem;
   z-index: 0;
-  font-family: "Mustardo", sans-serif;
+  font-family: "Hurricane", sans-serif;
 }
 
 .navbar > h1 > a:hover {
