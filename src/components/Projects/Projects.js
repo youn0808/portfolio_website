@@ -13,7 +13,7 @@ const projects_data = [
   {
     id: 1,
     icon: AiOutlineShoppingCart,
-    title: "E-Commerse site",
+    title: "E-Commerce flatform",
     skills: "React • NodeJS • MongoDB • Express",
     details:
       "A website where users can order items and with admin can manage items.",
@@ -24,7 +24,7 @@ const projects_data = [
   {
     id: 2,
     icon: MdFastfood,
-    title: "Food ordering system",
+    title: "Food ordering flatform",
     skills: "React • Firebase",
     details:
       "Design of an online delivery application in which items can be selected and purchased.",
