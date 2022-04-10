@@ -5,13 +5,24 @@ import { AiOutlineSchedule } from "react-icons/ai";
 import { BsCurrencyBitcoin } from "react-icons/bs";
 import { MdFastfood } from "react-icons/md";
 import { BiCameraMovie } from "react-icons/bi";
-import { FaCampground } from "react-icons/fa";
-
+// import { FaCampground } from "react-icons/fa";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
 
 const projects_data = [
   {
     id: 1,
+    icon: AiOutlineShoppingCart,
+    title: "E-Commerse site",
+    skills: "React • NodeJS • MongoDB • Express",
+    details:
+      "A website where users can order items and with admin can manage items.",
+    github: "https://github.com/youn0808/Ecommerce_web",
+    demo: "https://bestshop0808.herokuapp.com/",
+  },
+
+  {
+    id: 2,
     icon: MdFastfood,
     title: "Food ordering system",
     skills: "React • Firebase",
@@ -21,7 +32,7 @@ const projects_data = [
     demo: "https://youn0808.github.io/food-ordering-system/",
   },
   {
-    id: 2,
+    id: 3,
 
     icon: AiOutlineSchedule,
     title: "Course schedule website",
@@ -32,7 +43,7 @@ const projects_data = [
     demo: "https://youn0808.github.io/course_registration-group-project-/",
   },
   {
-    id: 3,
+    id: 4,
     icon: CgWebsite,
     title: "Personal Website",
     skills: "React •  AWS",
@@ -41,7 +52,7 @@ const projects_data = [
     demo: "https://github.com/youn0808/portfolio_website",
   },
   {
-    id: 4,
+    id: 5,
     icon: BiCameraMovie,
     title: "Movie ticket app",
     skills: "Java • Python • SQL • Android studio ",
@@ -51,7 +62,7 @@ const projects_data = [
     demo: "video",
   },
   {
-    id: 5,
+    id: 6,
     icon: BsCurrencyBitcoin,
     title: "Blockchain Data Analytics",
     skills: "Python",
@@ -60,16 +71,17 @@ const projects_data = [
     github: "https://youn0808.github.io/BlockchainDataAnalytics/",
     demo: "https://github.com/youn0808/BlockchainDataAnalytics",
   },
-  {
-    id: 6,
-    icon: FaCampground,
-    title: "Camp site",
-    skills: "Javascript • NodeJS",
-    details:
-      "A website where users can create and review campgrounds. In order to review or create a campground",
-    github: "https://github.com/youn0808/javascript_exercise",
-    demo: "https://github.com/youn0808/booking_camp_site",
-  },
+
+  // {
+  //   id: 6,
+  //   icon: FaCampground,
+  //   title: "Camp site",
+  //   skills: "Javascript • NodeJS",
+  //   details:
+  //     "A website where users can create and review campgrounds. In order to review or create a campground",
+  //   github: "https://github.com/youn0808/javascript_exercise",
+  //   demo: "https://github.com/youn0808/booking_camp_site",
+  // },
 ];
 
 const Portfolio = () => {
