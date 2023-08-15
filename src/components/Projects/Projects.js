@@ -3,33 +3,29 @@ import classes from "./Projects.module.css";
 
 import { AiOutlineSchedule } from "react-icons/ai";
 import { BsCurrencyBitcoin } from "react-icons/bs";
-import { MdFastfood } from "react-icons/md";
 import { BiCameraMovie } from "react-icons/bi";
-import { FaCampground } from "react-icons/fa";
+import { FaTruckMoving } from "react-icons/fa";
+import { GiClown } from "react-icons/gi";
 
 import { CgWebsite } from "react-icons/cg";
 
 const projects_data = [
   {
     id: 1,
-    icon: MdFastfood,
-    title: "Food ordering system",
-    skills: "React • Firebase",
+    icon: FaTruckMoving,
+    title: "Moving Company System",
+    skills: "Angular • TypeScript • GraphQL",
     details:
-      "Design of an online delivery application in which items can be selected and purchased.",
-    github: "https://github.com/youn0808/javascript_exercise",
-    demo: "https://youn0808.github.io/food-ordering-system/",
+      "A software designed to automate and optimize the entire moving process, from scheduling and dispatching to inventory management and invoicing",
   },
   {
     id: 2,
-
-    icon: AiOutlineSchedule,
-    title: "Course schedule website",
-    skills: "HTML • CSS • JavaScript",
+    icon: GiClown,
+    title: "Joke me",
+    skills: "React • Material-UI",
     details:
-      "A web-based  application that allows student-specified class-priority list for creating class schedules for a term",
-    github: "https://github.com/youn0808/course_registration-group-project-",
-    demo: "https://youn0808.github.io/course_registration-group-project-/",
+      "This app is designed to provide users with a fun and engaging experience by delivering a wide variety of jokes",
+    github: "https://joke-me-project.netlify.app/",
   },
   {
     id: 3,
@@ -52,6 +48,16 @@ const projects_data = [
   },
   {
     id: 5,
+    icon: AiOutlineSchedule,
+    title: "Course schedule website",
+    skills: "HTML • CSS • JavaScript",
+    details:
+      "A web-based  application that allows student-specified class-priority list for creating class schedules for a term",
+    github: "https://github.com/youn0808/course_registration-group-project-",
+    demo: "https://youn0808.github.io/course_registration-group-project-/",
+  },
+  {
+    id: 6,
     icon: BsCurrencyBitcoin,
     title: "Blockchain Data Analytics",
     skills: "Python",
@@ -59,16 +65,6 @@ const projects_data = [
       "Based on the previous transaction history analyse and predict pattern of the malicious transactions",
     github: "https://youn0808.github.io/BlockchainDataAnalytics/",
     demo: "https://github.com/youn0808/BlockchainDataAnalytics",
-  },
-  {
-    id: 6,
-    icon: FaCampground,
-    title: "Camp site",
-    skills: "Javascript • NodeJS",
-    details:
-      "A website where users can create and review campgrounds. In order to review or create a campground",
-    github: "https://github.com/youn0808/javascript_exercise",
-    demo: "https://github.com/youn0808/booking_camp_site",
   },
 ];
 

@@ -36,23 +36,20 @@ const About = () => {
             <article className={classes.about__card}>
               <FaAward className={classes.about__icon} />
               <h4>Experience</h4>
-              <small>3+ years Working</small>
+              <small>2+ years Working</small>
             </article>
           </div>
 
           <p>
-            During my post-secondary studies, I become porficient in a variety
-            of language including Java, Python, JavaScript, React, NodeJS,
-            postgreSQL. I’m motivated to grow and through self-directed learning
-            continuously strive to expand my capabilities in front and back-end
-            development.had the privilege of serving as leader of a 6-person
-            team through various missions for 2 years. This role has allowed me
-            to foster several attributes such as creativity, problem-solving,
-            communication skills, detail-oriented, and in particular, a notable
-            aptitude for performing under duress, whether workload or time
-            related.
+            Full Stack  Developer with a Bachelor's degree in Computer Science from the University of Manitoba.
+            I have a diverse range of experiences that have shaped me both personally and professionally.
+            Before I dived into tech industry I honerably change to serve military services for 2 years and from that experience 
+            I developed essential skills such as leadership, teamwork, discipline, and time management.
+            After graduated school, I was given the opportunity to work as a full stack developer from KarveIT. 
+            Our team developed a moving software designed to automate and optimize the entire moving process, from scheduling and dispatching to inventory management and invoicing.
+            I'm constantly eager to expand my knowledge and stay up-to-date with the latest industry trends.
           </p>
-
+    
           <CTA />
         </div>
       </div>

@@ -18,6 +18,12 @@ import python_IMG from "../../assets/skills/python.png";
 import mysql_IMG from "../../assets/skills/mysql.png";
 import mongo_IMG from "../../assets/skills/mongo.png";
 
+import angular_IMG from "../../assets/skills/angular.png"
+import typeScript_IMG from "../../assets/skills/typescript.png"
+import cypress_IMG from "../../assets/skills/cypress.png"
+import neo4j_IMG from "../../assets/skills/neo4j.png"
+import graphql_IMG from "../../assets/skills/graphql.png"
+
 import linux_IMG from "../../assets/skills/linux.png";
 
 const Experience = () => {
@@ -53,6 +59,34 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
+              <img src={React_IMG} />
+              <div>
+                <h4>React</h4>
+              </div>
+            </article>
+
+            <article className={classes.experience__details}>
+              <img src={angular_IMG} />
+              <div>
+                <h4>Angular</h4>
+              </div>
+            </article>
+
+            <article className={classes.experience__details}>
+              <img src={typeScript_IMG} />
+              <div>
+                <h4>TypeScript</h4>
+              </div>
+            </article>
+
+            <article className={classes.experience__details}>
+              <img src={cypress_IMG} />
+              <div>
+                <h4>Cypress</h4>
+              </div>
+            </article>
+
+            <article className={classes.experience__details}>
               <img src={Bootstrap_IMG} />
               <div>
                 <h4>Bootstrap</h4>
@@ -60,9 +94,9 @@ const Experience = () => {
             </article>
 
             <article className={classes.experience__details}>
-              <img src={React_IMG} />
+              <img src={python_IMG} />
               <div>
-                <h4>React</h4>
+                <h4>Python</h4>
               </div>
             </article>
 
@@ -72,13 +106,7 @@ const Experience = () => {
                 <h4>Next.js</h4>
               </div>
             </article>
-
-            <article className={classes.experience__details}>
-              <img src={NodeJS_IMG} />
-              <div>
-                <h4>Node.js</h4>
-              </div>
-            </article>
+            
           </div>
         </div>
 
@@ -86,23 +114,23 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className={classes.experience__content}>
             <article className={classes.experience__details}>
-              <img src={cplusplus_IMG} />
+              <img src={graphql_IMG} />
               <div>
-                <h4>C++</h4>
+                <h4>GraphQL</h4>
               </div>
             </article>
 
             <article className={classes.experience__details}>
-              <img src={java_IMG} />
+              <img src={neo4j_IMG} />
               <div>
-                <h4>Java</h4>
+                <h4>Neo4J</h4>
               </div>
             </article>
 
             <article className={classes.experience__details}>
-              <img src={python_IMG} />
+              <img src={NodeJS_IMG} />
               <div>
-                <h4>Python</h4>
+                <h4>Node.js</h4>
               </div>
             </article>
 
@@ -134,6 +162,8 @@ const Experience = () => {
             </article>
           </div>
         </div>
+
+        
       </div>
     </section>
   );
