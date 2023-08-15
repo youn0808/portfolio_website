@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Navigation.module.css";
+import Resume from "../../../assets/Resume.pdf";
 const Navigation = () => {
   return (
     <nav className={classes.navbar}>
@@ -24,6 +25,11 @@ const Navigation = () => {
         </li>
         <li>
           <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href={Resume} download className="btn btn-primary">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>

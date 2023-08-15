@@ -25,7 +25,7 @@ const projects_data = [
     skills: "React • Material-UI",
     details:
       "This app is designed to provide users with a fun and engaging experience by delivering a wide variety of jokes",
-    github: "https://joke-me-project.netlify.app/",
+    demo: "https://joke-me-project.netlify.app/",
   },
   {
     id: 3,

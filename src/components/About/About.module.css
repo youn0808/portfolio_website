@@ -37,10 +37,10 @@
   transform: rotate(0);
   transition: var(--transition);
 }
-
+/* 
 .about__me_image:hover {
   transform: rotate(10deg);
-}
+} */
 
 .about__cards {
   display: grid;
