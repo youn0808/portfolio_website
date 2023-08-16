@@ -3,7 +3,7 @@ import classes from "./Projects.module.css";
 
 import { AiOutlineSchedule } from "react-icons/ai";
 import { BsCurrencyBitcoin } from "react-icons/bs";
-import { BiCameraMovie } from "react-icons/bi";
+import { BiRestaurant } from "react-icons/bi";
 import { FaTruckMoving } from "react-icons/fa";
 import { GiClown } from "react-icons/gi";
 
@@ -21,7 +21,7 @@ const projects_data = [
   {
     id: 2,
     icon: GiClown,
-    title: "Joke me",
+    title: "Joke me website",
     skills: "React • Material-UI",
     details:
       "This app is designed to provide users with a fun and engaging experience by delivering a wide variety of jokes",
@@ -29,22 +29,20 @@ const projects_data = [
   },
   {
     id: 3,
+    icon: BiRestaurant,
+    title: "Resturant demo app",
+    skills: "React • Next • tailwind-css ",
+    details:
+      "Developed a restaurant website built with the React and Next.js framework",
+    demo: "https://bistro-demo-app.netlify.app/",
+  },
+  {
+    id: 4,
     icon: CgWebsite,
     title: "Personal Website",
     skills: "React •  AWS",
     details: "A personal portfolio web site ",
     github: "https://github.com/youn0808/portfolio_website",
-    demo: "https://github.com/youn0808/portfolio_website",
-  },
-  {
-    id: 4,
-    icon: BiCameraMovie,
-    title: "Movie ticket app",
-    skills: "Java • Python • SQL • Android studio ",
-    details:
-      "Developed a movie ticket purchasing application. The aim of the app is to allow users to be able to purchase and reserve movie tickets through an app before going to the theater.",
-    github: "https://github.com/youn0808/movie_theater_app",
-    demo: "video",
   },
   {
     id: 5,

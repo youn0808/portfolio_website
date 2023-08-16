@@ -12,9 +12,9 @@ const SocialsLink = () => {
       >
         <BsLinkedin />
       </a>
-      {/* <a href="https://github.com/youn0808" target="_blank">
+      <a href="https://github.com/youn0808" target="_blank">
         <BsGithub />
-      </a> */}
+      </a>
     </div>
   );
 };

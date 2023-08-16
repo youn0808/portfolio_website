@@ -42,10 +42,11 @@ const Contact = () => {
             </span>
             <h4>Email</h4>
             <h5>hhwannn2@gmail.com</h5>
-            <a href="mailto:hhwannn2@gmail.com">Send a email</a>
+            <a></a>
+            {/* <a href="mailto:hhwannn2@gmail.com">Send a email</a> */}
           </div>
 
-          <div className={classes.contact__option}>
+          {/* <div className={classes.contact__option}>
             <span className={classes.contact__option_icon}>
               <BsWhatsapp />
             </span>
@@ -54,7 +55,7 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=+12048691756">
               Send a message
             </a>
-          </div>
+          </div> */}
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
