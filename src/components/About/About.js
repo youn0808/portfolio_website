@@ -44,7 +44,7 @@ const About = () => {
             With over 2 years of work experience as a full stack developer, I am
             deeply passionate about utilizing technology to empower people. My
             primary focus lies in constructing full stack projects using React,
-            Angular, and C#.
+            Angular, and .NET Framework.
           </p>
           <CTA />
         </div>
