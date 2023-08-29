@@ -94,10 +94,10 @@
 @media screen and (max-width: 600px) {
   .experience__container {
     gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
   }
   .experience__container > div {
     width: 100%;
-
     padding: 1.5rem 1rem;
   }
   .experience__details > div > small {
