@@ -5,6 +5,7 @@ import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Main from "./components/Main/Main";
 import Video from "./components/Video/Video";
+import Skills from "./components/Skills/Skills";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -18,8 +19,9 @@ function App() {
             <>
               <Main />
               <About />
-              <Experience />
+              <Skills />
               <Projects />
+              <Experience />
               <Contact />
               <Footer />
             </>

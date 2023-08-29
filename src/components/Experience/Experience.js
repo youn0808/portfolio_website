@@ -1,6 +1,13 @@
 import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import classes from "./Experience.module.css";
+import { GiClown } from "react-icons/gi";
+import { CgWebsite } from "react-icons/cg";
+
+import { AiOutlineSchedule } from "react-icons/ai";
+import { BsCurrencyBitcoin } from "react-icons/bs";
+import { BiRestaurant } from "react-icons/bi";
+import { FaTruckMoving } from "react-icons/fa";
 
 import HTML_IMG from "../../assets/skills/html.png";
 import CSS_IMG from "../../assets/skills/css.png";
@@ -18,152 +25,107 @@ import python_IMG from "../../assets/skills/python.png";
 import mysql_IMG from "../../assets/skills/mysql.png";
 import mongo_IMG from "../../assets/skills/mongo.png";
 
-import angular_IMG from "../../assets/skills/angular.png"
-import typeScript_IMG from "../../assets/skills/typescript.png"
-import cypress_IMG from "../../assets/skills/cypress.png"
-import neo4j_IMG from "../../assets/skills/neo4j.png"
-import graphql_IMG from "../../assets/skills/graphql.png"
+import angular_IMG from "../../assets/skills/angular.png";
+import typeScript_IMG from "../../assets/skills/typescript.png";
+import cypress_IMG from "../../assets/skills/cypress.png";
+import neo4j_IMG from "../../assets/skills/neo4j.png";
+import graphql_IMG from "../../assets/skills/graphql.png";
 
 import linux_IMG from "../../assets/skills/linux.png";
 
+const experience_data = [
+  {
+    id: 1,
+    icon: FaTruckMoving,
+    companyName: "Moving Company System",
+    location: "Winnipeg, MB",
+    position: "Full Stack Web Developer",
+    duration: "April 2022 - May 2023",
+    details: [
+      "Developed and maintained software for moving company operations",
+      "Added navigation history and bookmarks to track recent pages",
+      "Ensured mobile and tablet responsiveness, creating custom components when necessary.",
+      "Conducted thorough testing using Cypress for bug resolution.",
+      "Skills: Angular, TypeScript, GraphQL, Neo4j, Express.js, PrimeNG",
+    ],
+  },
+  {
+    id: 2,
+    icon: FaTruckMoving,
+    companyName: "LeedWay Mission",
+    location: "Winnipeg, MB",
+    position: "Software Developer",
+    duration: "Nov 2021 - Mar 2022",
+    details: [
+      "Involved in full SDLC, understanding Test-Driven Development and Agile/Scrum",
+      "Worked on cross-browser compatibility issues and fixed bugs pertaining to various browsers",
+      "Educated programming to immigrants and children in local communities.",
+      "Skills: React, Python, C#, .NET framework",
+    ],
+  },
+  {
+    id: 3,
+    icon: FaTruckMoving,
+    companyName: "Desert Island Lab",
+    location: "Seoul, Korea",
+    position: "Project Manager",
+    duration: "April 2017 - Sep 2017",
+    details: [
+      "Analyzed requirements and contributed to website development",
+      "Collaborated with local partners for bookings and issue resolution",
+      "Handled customer inquiries, complaints, and feedback",
+      "Skills: Conflict Resolution, Communication, Problem-Solving",
+    ],
+  },
+  {
+    id: 4,
+    icon: FaTruckMoving,
+    companyName: "Republic of Korea Marine Corps ",
+    location: "Korea",
+    position: "Marine",
+    duration: "Jan 2016 - April 2017",
+    details: [
+      "Ranger Training and Airborne Training",
+      "Lead a 6-man team in combat missions",
+      "Handled customer inquiries, complaints, and feedback",
+      "Skills: Leadership, Teamwork, Discipline, Time management ",
+    ],
+  },
+];
 const Experience = () => {
   return (
     <section className={classes.experience_section} id="experience">
-      <h1>My Experience</h1>
+      <h1>Work Experience</h1>
 
-      <div className={`container ${classes.experience__container}`}>
-        <div className={classes.experience__frontend}>
-          <h3>Frontend Development</h3>
-
-          <div className={classes.experience__content}>
-            <article className={classes.experience__details}>
-              <img src={HTML_IMG} />
-              <div>
-                <h4>HTML</h4>
+      <div className={`${classes.experience__container}`}>
+        {experience_data.map((data) => {
+          return (
+            <div className={classes.container}>
+              <span className={classes.span_container}>
+                <span className={classes.title}>{data.companyName}</span>
+                <span style={{ fontSize: "0.75rem" }}>{data.duration}</span>
+              </span>
+              <div style={{ marginBottom: "1rem", fontSize: "0.85rem" }}>
+                {data.position} , {data.location}
               </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={CSS_IMG} />
-              <div>
-                <h4>CSS</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={Java_IMG} />
-
-              <div>
-                <h4>JavaScript</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={React_IMG} />
-              <div>
-                <h4>React</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={angular_IMG} />
-              <div>
-                <h4>Angular</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={typeScript_IMG} />
-              <div>
-                <h4>TypeScript</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={cypress_IMG} />
-              <div>
-                <h4>Cypress</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={Bootstrap_IMG} />
-              <div>
-                <h4>Bootstrap</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={python_IMG} />
-              <div>
-                <h4>Python</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={NextJS_IMG} />
-              <div>
-                <h4>Next.js</h4>
-              </div>
-            </article>
-            
-          </div>
-        </div>
-
-        <div className={classes.experience__backend}>
-          <h3>Backend Development</h3>
-          <div className={classes.experience__content}>
-            <article className={classes.experience__details}>
-              <img src={graphql_IMG} />
-              <div>
-                <h4>GraphQL</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={neo4j_IMG} />
-              <div>
-                <h4>Neo4J</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={NodeJS_IMG} />
-              <div>
-                <h4>Node.js</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={mongo_IMG} />
-              <div>
-                <h4>MongoDB</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={mysql_IMG} />
-              <div>
-                <h4>MySQL</h4>
-              </div>
-            </article>
-            <article className={classes.experience__details}>
-              <img src={linux_IMG} />
-              <div>
-                <h4>Linux</h4>
-              </div>
-            </article>
-
-            <article className={classes.experience__details}>
-              <img src={firebase_IMG} />
-              <div>
-                <h4>Firebase</h4>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        
+              {/* <p className={classes.duration}>{data.duration}</p> */}
+              {/* <div className="">{data.location}</div> */}
+              {data.details.map((role) => {
+                return (
+                  // <p
+                  //   style={{
+                  //     marginLeft: "8px",
+                  //     display: "flex",
+                  //     alignItems: "center",
+                  //   }}
+                  // >
+                  <p style={{ marginLeft: "8px" }}>● {role}</p>
+                );
+              })}
+              {/* <p className="">Skills:{data.skills}</p> */}
+            </div>
+          );
+        })}
       </div>
     </section>
   );

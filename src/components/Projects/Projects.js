@@ -4,7 +4,7 @@ import classes from "./Projects.module.css";
 import { AiOutlineSchedule } from "react-icons/ai";
 import { BsCurrencyBitcoin } from "react-icons/bs";
 import { BiRestaurant } from "react-icons/bi";
-import { FaTruckMoving } from "react-icons/fa";
+import { SiYourtraveldottv } from "react-icons/si";
 import { GiClown } from "react-icons/gi";
 
 import { CgWebsite } from "react-icons/cg";
@@ -12,11 +12,12 @@ import { CgWebsite } from "react-icons/cg";
 const projects_data = [
   {
     id: 1,
-    icon: FaTruckMoving,
-    title: "Moving Company System",
-    skills: "Angular • TypeScript • GraphQL",
+    icon: SiYourtraveldottv,
+    title: "Trip guide AI ChatBot",
+    skills: "React • Pyhton • FastAPI",
     details:
-      "A software designed to automate and optimize the entire moving process, from scheduling and dispatching to inventory management and invoicing",
+      "AI-powered voice chat travel advisor application that assists users in planning their trips through voice interactions.",
+    demo: "https://explor-mentor-ai-bot.netlify.app/",
   },
   {
     id: 2,
