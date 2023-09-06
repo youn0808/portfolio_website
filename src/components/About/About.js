@@ -41,10 +41,26 @@ const About = () => {
           </div>
 
           <p>
-            With over 2 years of work experience as a full stack developer, I am
-            deeply passionate about utilizing technology to empower people. My
-            primary focus lies in constructing full stack projects using React,
-            Angular, and .NET Framework.
+            I'm a versatile full stack developer with over 2 years of hands-on
+            experience and a strong commitment to crafting innovative and
+            user-friendly applications <br />
+            <br />
+            My technical expertise shines in full stack development, with a
+            focus on utilizing React, Angular, and the .NET Framework to create
+            robust projects. But I bring more than just tech skills to the
+            table. My background also includes invaluable lessons from my time
+            in the military, instilling qualities like discipline, leadership,
+            and adaptability.
+            <br />
+            <br />
+            My background not only includes technical expertise in React,
+            Angular, and the .NET Framework but also incorporates the
+            discipline, leadership, and adaptability instilled by my time in the
+            military. This dual perspective allows me to approach challenges
+            with a unique and well-rounded perspective.
+            <br />
+            <br /> Let's connect and explore how I can contribute my coding
+            prowess and creative problem-solving to your team's success!
           </p>
           <CTA />
         </div>

@@ -8,11 +8,11 @@ import Java_IMG from "../../assets/skills/javascript.png";
 import Bootstrap_IMG from "../../assets/skills/bootstrap.png";
 import React_IMG from "../../assets/skills/react.png";
 import NodeJS_IMG from "../../assets/skills/node.png";
-
+import Tailwind_IMG from "../../assets/skills/tailwind.png";
 import cplusplus_IMG from "../../assets/skills/cplusplus.png";
 import firebase_IMG from "../../assets/skills/firebase.png";
 import java_IMG from "../../assets/skills/java.png";
-
+import csharp_IMG from "../../assets/skills/csharp.png";
 import NextJS_IMG from "../../assets/skills/nextjs.png";
 import python_IMG from "../../assets/skills/python.png";
 import mysql_IMG from "../../assets/skills/mysql.png";
@@ -24,7 +24,7 @@ import cypress_IMG from "../../assets/skills/cypress.png";
 import neo4j_IMG from "../../assets/skills/neo4j.png";
 import graphql_IMG from "../../assets/skills/graphql.png";
 
-import linux_IMG from "../../assets/skills/linux.png";
+// import linux_IMG from "../../assets/skills/linux.png";
 
 const Skills = () => {
   return (
@@ -87,16 +87,16 @@ const Skills = () => {
             </article>
 
             <article className={classes.skills__details}>
-              <img src={Bootstrap_IMG} />
+              <img src={Tailwind_IMG} />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Tailwind</h4>
               </div>
             </article>
 
             <article className={classes.skills__details}>
-              <img src={python_IMG} />
+              <img src={Bootstrap_IMG} />
               <div>
-                <h4>Python</h4>
+                <h4>Bootstrap</h4>
               </div>
             </article>
 
@@ -112,6 +112,20 @@ const Skills = () => {
         <div className={classes.skills__backend}>
           <h3>Backend Development</h3>
           <div className={classes.skills__content}>
+            <article className={classes.skills__details}>
+              <img src={python_IMG} />
+              <div>
+                <h4>Python</h4>
+              </div>
+            </article>
+
+            <article className={classes.skills__details}>
+              <img src={csharp_IMG} />
+              <div>
+                <h4>C#</h4>
+              </div>
+            </article>
+
             <article className={classes.skills__details}>
               <img src={graphql_IMG} />
               <div>
@@ -146,12 +160,12 @@ const Skills = () => {
                 <h4>MySQL</h4>
               </div>
             </article>
-            <article className={classes.skills__details}>
+            {/* <article className={classes.skills__details}>
               <img src={linux_IMG} />
               <div>
                 <h4>Linux</h4>
               </div>
-            </article>
+            </article> */}
 
             <article className={classes.skills__details}>
               <img src={firebase_IMG} />
