@@ -6,7 +6,7 @@ import { BsCurrencyBitcoin } from "react-icons/bs";
 import { BiRestaurant } from "react-icons/bi";
 import { SiYourtraveldottv } from "react-icons/si";
 import { GiClown } from "react-icons/gi";
-
+import { BsFillHouseFill } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
 
 const projects_data = [
@@ -39,11 +39,13 @@ const projects_data = [
   },
   {
     id: 4,
-    icon: CgWebsite,
-    title: "Personal Website",
-    skills: "React •  AWS",
-    details: "A personal portfolio web site ",
-    github: "https://github.com/youn0808/portfolio_website",
+    icon: BsFillHouseFill,
+    title: "Real Estate Website",
+    skills: "React • MongoDB • Auth0 ",
+    details:
+      "A user-friendly real estate website where users can explore listings and share their own properties",
+    github: "https://real-estate-project-client.vercel.app/",
+    demo: "https://real-estate-project-client.vercel.app/",
   },
   {
     id: 5,
@@ -73,7 +75,7 @@ const Portfolio = () => {
       <h1>Projects</h1>
 
       <div className={classes.project_container}>
-        {projects_data.map((data) => {
+        {projects_data.map((data, i) => {
           return (
             <a href={data.demo} key={data.id} className={classes.project_item}>
               <span className={classes.icon}>
@@ -87,6 +89,13 @@ const Portfolio = () => {
                   <strong>{data.skills}</strong>
                 </p>
                 <p className={classes.detail}>{data.details}</p>
+                {i === 3 && (
+                  <div>
+                    <small>Demo ID: test@gmail.com</small>
+                    <br></br>
+                    <small>Demo Pwd: test21345!</small>
+                  </div>
+                )}
               </div>
             </a>
           );
