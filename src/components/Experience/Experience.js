@@ -37,7 +37,24 @@ const experience_data = [
   {
     id: 1,
     icon: FaTruckMoving,
-    companyName: "Moving Company System",
+    companyName: "Unionware",
+    location: "Winnipeg, MB",
+    position: "Full Stack Software Developer",
+    duration: "Nov 2023 - July 2024",
+    details: [
+      "Wrote and tested T-SQL code, including stored procedures, triggers, functions, and other complex queries.",
+      "Configured Enterprise-level software through database entries",
+      "Enhanced Enterprise software written in VB.NET",
+      "Conducted end-to-end testing of both frontend and backend components to identify and resolve any issues or bugs using Cypress",
+      "Enhanced web products written in ASP.NET, JavaScript, and CSS",
+      "Utilized Power BI to create dynamic dashboards and visualizations, transforming complex datasets into actionable business insights",
+      "Collaborated with the Solutions Architect, Business Analyst, and Quality Assurance Analyst to design scalable software solutions, refine requirements."
+    ],
+  },
+  {
+    id: 2,
+    icon: FaTruckMoving,
+    companyName: "KarveIT",
     location: "Winnipeg, MB",
     position: "Full Stack Web Developer",
     duration: "April 2022 - May 2023",
