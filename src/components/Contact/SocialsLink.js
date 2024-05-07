@@ -7,7 +7,7 @@ const SocialsLink = () => {
   return (
     <div className={classes.socials}>
       <a
-        href="https://www.linkedin.com/in/seunghwan-youn-9303/"
+        href="https://www.linkedin.com/in/seung0909/"
         target="_blank"
       >
         <BsLinkedin />
