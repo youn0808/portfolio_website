@@ -42,10 +42,12 @@ const About = () => {
           </div>
 
           <p>
-            I'm a versatile full stack developer with over 2 years of hands-on
-            experience and a strong commitment to crafting innovative and
-            user-friendly applications
+            I'm a versatile Full Stack Developer and aspiring Data Analyst with over 3 years of experience in building innovative and user-friendly applications. 
+            I specialize in React, Angular, ASP.NET, and the .NET Framework, with a strong ability to develop scalable software solutions and responsive web applications. 
+            At Unionware and Karve IT, I enhanced enterprise software, optimized complex T-SQL queries, and implemented advanced features using modern technologies.
             <br />
+
+ 
             {/* My technical expertise shines in full stack development, with a
             focus on utilizing React, Angular, and the .NET Framework to create
             robust projects. But I bring more than just tech skills to the
@@ -53,11 +55,8 @@ const About = () => {
             in the military, instilling qualities like discipline, leadership,
             and adaptability */}
             <br />
-            My background not only includes technical expertise in various
-            development skills such as React, Angular and C# but also
-            incorporates the discipline, leadership, and adaptability instilled
-            by my time in the military. This dual perspective allows me to
-            approach challenges with a unique and well-rounded perspective
+            In addition to my development expertise, I bring strong analytical skills with experience in tools like Power BI for data visualization and insights. 
+            My military background has instilled in me discipline, leadership, and adaptability, allowing me to approach technical challenges with a unique, strategic perspective.
             <br />
             {/* <br /> Let's connect and explore how I can contribute my coding
             prowess and creative problem-solving to your team's success! */}
