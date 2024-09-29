@@ -57,7 +57,7 @@ const experience_data = [
     companyName: "KarveIT",
     location: "Winnipeg, MB",
     position: "Full Stack Web Developer",
-    duration: "April 2022 - May 2023",
+    duration: "April 2022 - Sep 2023",
     details: [
       "Developed and maintained software applications for managing booking systems, assets, employees, and other functions for moving companies",
       "Implemented navigation history and bookmark features to track the most recently visited pages within the application",
@@ -76,7 +76,7 @@ const experience_data = [
     details: [
       "Mentored and provided training to new immigrants, children, and underprivileged individuals in local communities, empowering them with programming skill",
       "Worked on cross-browser compatibility issues and fixed bugs pertaining to various browsers",
-      "Skills: React, Python, C#, .NET framework",
+      "Skills: Java, Javascript",
     ],
   },
 
