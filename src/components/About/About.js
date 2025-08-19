@@ -42,24 +42,25 @@ const About = () => {
           </div>
 
           <p>
-            I'm a versatile Full Stack Developer and aspiring Data Analyst with over 3 years of experience in building innovative and user-friendly applications. 
-            I specialize in React, Angular, ASP.NET, and the .NET Framework, with a strong ability to develop scalable software solutions and responsive web applications. 
-            At Unionware and Karve IT, I enhanced enterprise software, optimized complex T-SQL queries, and implemented advanced features using modern technologies.
+            I am a dynamic Full Stack Developer with over 3 years of experience
+            designing and delivering innovative, scalable, and user-friendly
+            applications. My technical expertise spans React, Angular, ASP.NET,
+            the .NET Framework, and Flutter, allowing me to build both
+            responsive web solutions and high-performance mobile apps.
+            <br />
             <br />
 
- 
-            {/* My technical expertise shines in full stack development, with a
-            focus on utilizing React, Angular, and the .NET Framework to create
-            robust projects. But I bring more than just tech skills to the
-            table. My background also includes invaluable lessons from my time
-            in the military, instilling qualities like discipline, leadership,
-            and adaptability */}
+            
+            Currently at Nirix, I contribute to advancing digital workspace
+            solutions by implementing modern features, optimizing complex T-SQL
+            queries, and enhancing enterprise software efficiency. I am
+            dedicated to delivering clean, maintainable code that drives both
+            performance and long-term scalability. My military background has
+            instilled in me discipline, leadership, and adaptability—qualities
+            that help me approach technical challenges strategically,
+            collaborate effectively, and deliver results in fast-paced
+            environments.
             <br />
-            In addition to my development expertise, I bring strong analytical skills with experience in tools like Power BI for data visualization and insights. 
-            My military background has instilled in me discipline, leadership, and adaptability, allowing me to approach technical challenges with a unique, strategic perspective.
-            <br />
-            {/* <br /> Let's connect and explore how I can contribute my coding
-            prowess and creative problem-solving to your team's success! */}
           </p>
           <CTA />
         </div>

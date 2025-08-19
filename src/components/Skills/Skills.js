@@ -1,7 +1,7 @@
 import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import classes from "./Skills.module.css";
-
+import dotnet_IMG from "../../assets/skills/dotnet.png";
 import HTML_IMG from "../../assets/skills/html.png";
 import CSS_IMG from "../../assets/skills/css.png";
 import Java_IMG from "../../assets/skills/javascript.png";
@@ -17,7 +17,7 @@ import NextJS_IMG from "../../assets/skills/nextjs.png";
 import python_IMG from "../../assets/skills/python.png";
 import mysql_IMG from "../../assets/skills/mysql.png";
 import mongo_IMG from "../../assets/skills/mongo.png";
-
+import flutter_IMG from "../../assets/skills/flutter.png";
 import angular_IMG from "../../assets/skills/angular.png";
 import typeScript_IMG from "../../assets/skills/typescript.png";
 import cypress_IMG from "../../assets/skills/cypress.png";
@@ -36,7 +36,7 @@ const Skills = () => {
           <h3>Frontend Development</h3>
 
           <div className={classes.skills__content}>
-            <article className={classes.skills__details}>
+            {/* <article className={classes.skills__details}>
               <img src={HTML_IMG} />
               <div>
                 <h4>HTML</h4>
@@ -48,27 +48,13 @@ const Skills = () => {
               <div>
                 <h4>CSS</h4>
               </div>
-            </article>
+            </article> */}
 
             <article className={classes.skills__details}>
               <img src={Java_IMG} />
 
               <div>
                 <h4>JavaScript</h4>
-              </div>
-            </article>
-
-            <article className={classes.skills__details}>
-              <img src={React_IMG} />
-              <div>
-                <h4>React</h4>
-              </div>
-            </article>
-
-            <article className={classes.skills__details}>
-              <img src={angular_IMG} />
-              <div>
-                <h4>Angular</h4>
               </div>
             </article>
 
@@ -80,18 +66,39 @@ const Skills = () => {
             </article>
 
             <article className={classes.skills__details}>
+              <img src={React_IMG} />
+              <div>
+                <h4>React</h4>
+              </div>
+            </article>
+
+            <article className={classes.skills__details}>
+              <img src={flutter_IMG} />
+              <div>
+                <h4>Flutter</h4>
+              </div>
+            </article>
+
+            <article className={classes.skills__details}>
+              <img src={angular_IMG} />
+              <div>
+                <h4>Angular</h4>
+              </div>
+            </article>
+
+            <article className={classes.skills__details}>
               <img src={cypress_IMG} />
               <div>
                 <h4>Cypress</h4>
               </div>
             </article>
 
-            <article className={classes.skills__details}>
+            {/* <article className={classes.skills__details}>
               <img src={Tailwind_IMG} />
               <div>
                 <h4>Tailwind</h4>
               </div>
-            </article>
+            </article> */}
 
             <article className={classes.skills__details}>
               <img src={Bootstrap_IMG} />
@@ -100,12 +107,12 @@ const Skills = () => {
               </div>
             </article>
 
-            <article className={classes.skills__details}>
+            {/* <article className={classes.skills__details}>
               <img src={NextJS_IMG} />
               <div>
                 <h4>Next.js</h4>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
 
@@ -123,6 +130,20 @@ const Skills = () => {
               <img src={csharp_IMG} />
               <div>
                 <h4>C#</h4>
+              </div>
+            </article>
+
+            <article className={classes.skills__details}>
+              <img src={dotnet_IMG} />
+              <div>
+                <h4>ASP.NET</h4>
+              </div>
+            </article>
+
+            <article className={classes.skills__details}>
+              <img src={firebase_IMG} />
+              <div>
+                <h4>Firebase</h4>
               </div>
             </article>
 
@@ -146,13 +167,13 @@ const Skills = () => {
                 <h4>Node.js</h4>
               </div>
             </article>
-
+            {/* 
             <article className={classes.skills__details}>
               <img src={mongo_IMG} />
               <div>
                 <h4>MongoDB</h4>
               </div>
-            </article>
+            </article> */}
 
             <article className={classes.skills__details}>
               <img src={mysql_IMG} />
@@ -166,13 +187,6 @@ const Skills = () => {
                 <h4>Linux</h4>
               </div>
             </article> */}
-
-            <article className={classes.skills__details}>
-              <img src={firebase_IMG} />
-              <div>
-                <h4>Firebase</h4>
-              </div>
-            </article>
           </div>
         </div>
       </div>

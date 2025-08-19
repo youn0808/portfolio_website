@@ -37,6 +37,20 @@ const experience_data = [
   {
     id: 1,
     icon: FaTruckMoving,
+    companyName: "Nirix",
+    location: "Canada Remote",
+    position: "Full Stack Software Developer",
+    duration: "Nov 2023 - July 2024",
+    details: [
+      "Developed and maintained enterprise-level web applications using Angular, creating responsive and intuitive user interfaces that improved user engagement and workflow efficiency",
+      "Built cross-platform mobile applications with Flutter, ensuring consistent performance and native-like user experience across iOS and Android platforms",
+      "Designed and implemented robust backend solutions using .NET Framework/Core and SQL Server, developing RESTful APIs and database structures that supported critical business operations",
+    ],
+  },
+
+  {
+    id: 1.2,
+    icon: FaTruckMoving,
     companyName: "Unionware",
     location: "Winnipeg, MB",
     position: "Full Stack Software Developer",
@@ -48,7 +62,7 @@ const experience_data = [
       "Conducted end-to-end testing of both frontend and backend components to identify and resolve any issues or bugs using Cypress",
       "Enhanced web products written in ASP.NET, JavaScript, and CSS",
       "Utilized Power BI to create dynamic dashboards and visualizations, transforming complex datasets into actionable business insights",
-      "Collaborated with the Solutions Architect, Business Analyst, and Quality Assurance Analyst to design scalable software solutions, refine requirements."
+      "Collaborated with the Solutions Architect, Business Analyst, and Quality Assurance Analyst to design scalable software solutions, refine requirements.",
     ],
   },
   {
@@ -71,8 +85,8 @@ const experience_data = [
     icon: FaTruckMoving,
     companyName: "LeedWay Mission",
     location: "Winnipeg, MB",
-    position: "Software Developer",
-    duration: "Feb 2020 - Mar 2022",
+    position: "Software Developer (Volunteer)",
+    duration: "Feb 2020 - April 2022",
     details: [
       "Mentored and provided training to new immigrants, children, and underprivileged individuals in local communities, empowering them with programming skill",
       "Worked on cross-browser compatibility issues and fixed bugs pertaining to various browsers",
