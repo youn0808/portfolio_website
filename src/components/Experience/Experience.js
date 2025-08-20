@@ -45,6 +45,8 @@ const experience_data = [
       "Developed and maintained enterprise-level web applications using Angular, creating responsive and intuitive user interfaces that improved user engagement and workflow efficiency",
       "Built cross-platform mobile applications with Flutter, ensuring consistent performance and native-like user experience across iOS and Android platforms",
       "Designed and implemented robust backend solutions using .NET Framework/Core and SQL Server, developing RESTful APIs and database structures that supported critical business operations",
+      "Participated in architectural design discussions, recommending scalable and maintainable software solutions to meet evolving business needs",
+      "Integrated Firebase service to enhance application scalability, performance, and monitoring",
     ],
   },
 
